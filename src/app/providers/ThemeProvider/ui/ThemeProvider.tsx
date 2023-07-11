@@ -11,7 +11,7 @@ interface Props {
   children: React.ReactNode;
 }
 
-const ThemeProvider: FC<Props> = ({ children }): React.ReactNode => {
+const ThemeProvider: FC<Props> = ({ children }) => {
     const [theme, setTheme] = useState<Theme>(defaultTheme);
 
     const defaultProps = useMemo(() => ({ theme, setTheme }), [theme]);
