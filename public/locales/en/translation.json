@@ -1,8 +1,7 @@
 {
-  "Перевод": "Translation",
-  "Тестовый пример": "Test example",
-  "Язык": "English",
-  "Переключить": "Toggle",
   "Главная": "Main",
-  "О сайте": "About"
+  "Переключить": "Toggle",
+  "Язык": "English",
+  "О сайте": "About",
+  "Произошла непредвиденная ошибка": "An unexpected error has occurred"
 }
