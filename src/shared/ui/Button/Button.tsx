@@ -8,6 +8,7 @@ export enum ThemeButton {
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   className?: string;
+  // eslint-disable-next-line no-undef
   children?: React.ReactNode;
   theme?: ThemeButton;
 }
